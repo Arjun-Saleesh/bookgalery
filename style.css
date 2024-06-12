@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    background-color: aquamarine;
+    height: 50px;
+}
+header h1{
+    color: rgb(247, 245, 248);
+    text-align: center;
+    text-shadow: 2px 4px 6px black;
+    padding: 3px;
+}
+.row{
+    background-color: burlywood;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.col{
+    background-color: darkslategray;
+    padding: 10px;
+    height: 360px;
+    width: 250px;
+    border: 2px ridge rgb(15, 1, 4);
+    margin-top: 50px;
+}
+img{
+    height: 250px;
+    width: 200;
+    border: 10px ridge chartreuse;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+h2{
+    color: gold;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+h4{
+    color:rgb(232, 118, 10);
+    font-weight: bolder;
+    margin-top: 0px;
+    text-align: center;
+}
+#btn{
+    background-color: rgb(15, 177, 15);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10%;
+    margin-left: 90px;
+}
+footer{
+    background-color: aquamarine;
+    height: 130px;
+    
+}
+h3{
+    text-align: center;
+    color: darkslateblue;
+}
+.banner{
+    background-image: url('https://th.bing.com/th/id/OIP.GMEIkcUrFezmmpfT3unYDgHaDS?w=308&h=155&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    height: 200px;
+    width: 100%;
+    
+}
+@media screen and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    footer{
+        background-color: chartreuse;
+    }
+}
